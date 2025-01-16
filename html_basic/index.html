@@ -2,29 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
 </head>
-
 <body>
-    <h1>Welcome to My Webpage</h1>
-
-    <h2>Introduction</h2>
-    <p>This is my very first webpage. I'm learning HTML and making sure my code is valid and well-structured.</p>
-
-    <h3>What I Have Learned So Far</h3>
-    <p>the head contain the metadata and the body contains what's displayed on the screen.</p>
-    <h3>Challenges in Learning HTML</h3>
-    <p>One challenge is remembering the right tags and their structure, especially with nested elements.</p>
-
-    <h2>My Favorite Image</h2>
-    <p>Here is an image that I love. Click on it to visit the website:</p>
-    <a href="https://www.holbertonschool.com">
-        <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton Logo" />
-    </a>
-
-    <h3>Conclusion</h3>
-    <p>HTML is the foundation of web development, and I am excited to learn more and build more complex pages in the future!</p>
-    <!-- Link to the tweets page -->
-    <p>If you'd like to see my tweets, click <a href="tweets.html">here</a>.</p>
+    <header>
+        <ul>
+            <!-- Adding meaningful links in the navigation -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>   
+    </header>
+    <main>
+        <article>
+            <h2>Article</h2>
+            <p>This is an article section of the page. You can add any content here.</p>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by Keane- <a href="https://learn.shayhowe.com/html-css/" target="_blank">here</a></p>
+    </footer>
+    <a href="https://help.twitter.com/en/using-twitter/how-to-embed-a-tweet" target="_blank">Learn how to embed a tweet</a>
+    <a href="index.html">Back to Home</a>
 </body>
 </html>
